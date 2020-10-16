@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>zhy</title>
+    <style>
+        #topNav {
+            border: none;
+            box-shadow: none;
+            border-radius: 0px;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin: 0px;
+            padding-bottom: 0px;
+            padding-top: 0px
+        }
+
+        @media only screen and (max-width: 940px) {
+            #topNav {
+                padding-left: 0px;
+                padding-right: 0px
+            }
+        }
+
+        .nav-item {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .nav-link.side-nav {
+            color: #000000
+        }
+
+        .list-group-item {
+            border-radius: 0px !important
+        }
+
+        #summary {
+            background-color: #efefef;
+            padding: 3em;
+            margin-bottom: 50px;
+        }
+
+        .row {
+            margin-right: 0px !important;
+            margin-left: 0px !important;
+        }
+
+        .pointBars {
+            height: 10px;
+            width: 150px;
+            background-color: #3F2C81;
+            margin-bottom: 5px;
+        }
+
+        .sec {
+            padding-bottom: 40px
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="topNav" class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white!important">
+        <a class="nav-link" href="./index.html">
+            <img src="./assets/homepage/logoWhiteBackGround.png" height="40px" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Project
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./description&design.html">Description & Design</a>
+                        <a class="dropdown-item" href="./implementation.html">Implementation</a>
+                        <a class="dropdown-item" href="./contribution.html">Contribution</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Experiment
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./engineering.html">Engineering</a>
+                        <a class="dropdown-item" href="./proofOfConcept.html">Proof of Concept</a>
+                        <a class="dropdown-item" href="./notebook.html">Notebook</a>
+                        <a class="dropdown-item" href="./protocols.html">Protocols</a>
+                        <a class="dropdown-item" href="./safety.html">Safety</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Human Practice
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./humanPractices.html">Human Practices</a>
+                        <a class="dropdown-item" href="./education.html">Education</a>
+                        <a class="dropdown-item" href="./collaborations.html">Collaborations</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Model</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Parts</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Team
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./teamMember.html">Team Member</a>
+                        <a class="dropdown-item" href="./attributions.html">Attributions</a>
+                        <a class="dropdown-item" href="./partnership.html">Partnership</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="summary">
+        <h1>Summary</h1>
+        <p>
+            Our world is overwhelmed in plastics pollutions. Concerns about environmental issues and news related to
+            microplastic pollution inspired us to start this project. our mission is to degrade micro/nano-plastics
+            (PET) in the water body by genetically modified E.Coli biodegradation system that produces PETase and
+            strengthens the biofilm system. This combined biodegradable system can not only degrade PET plastics but
+            also attach degraded microplastics, so it will not flow away, thereby preventing it from further pollution.
+            Our product would be environmentally safe and biodegradable. We surveyed the general public as well as
+            professional workers so that we can have the best understanding of our project. By understanding our parts
+            and going through experiments, we created the best outcome of the project, and our mission is on the way.
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                    href="#list-home" role="tab" aria-controls="home">Discription</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                    href="#list-profile" role="tab" aria-controls="profile">Design</a>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    <div class="sec">
+                        <div class="pointBars"></div>
+                        <h2>1. Background</h2>
+                        <p>Plastic‘s production increased drastically from the 1950s’ and reached 322 million tons of
+                            production in 2015. 1.4 billion tons of waste is produced annually, roughly 10% of which is
+                            plastic<a href="#ref-1">[1]</a>. Globally, only 18% of plastics waste is recycled, and 24% is incinerated. The
+                            remaining 58% are either landfilled or enter the natural environment, where plastics
+                            accumulate
+                            and persist for a long period (Figure 1) <a href="#ref-2">[2]</a>. It is usually broken down from larger plastic
+                            pieces and could be broken down again to become microplastics, which are further degraded
+                            into
+                            nanoplastics <a href="#ref-3">[3]</a>.</p>
+                        <img src="./assets/discription&design/1.png" style="width: 100%" />
+                    </div>
+                    <div class="sec">
+                        <div class="pointBars"></div>
+                        <h2>1.1 What is nano-/microplastics? </h2>
+                        <p>Microplastic refers to any plastic particles that have a diameter less than 5mm <a href="#ref-3">[3]</a>. The
+                            shortest definition of nanoparticles only concerns about their size, which is limited
+                            conventionally to about 100 nm in any direction <a href="#ref-3">[3]</a>. Studies have shown that the sources of
+                            nano-/ microplastics can be divided into two categories, primary and secondary sources. As
+                            shown in Figure 2, primary sources, the original microplastics were initially synthesized at
+                            the microscopic level and widely used in various manufacturing industries, such as
+                            therapeutic agents, food science, chemical agent, and personal care products and cosmetics.
+                            Secondary plastics refer to those produced by the decomposition of large plastic materials.
+                            The decomposition products enter the environment due to the environmental weathering of
+                            plastic objects. It is worthy that secondary microplastics are considering the major source
+                            of microplastic pollution in the marine environment <a href="#ref-4">[4]</a>. </p>
+                        <img src="./assets/discription&design/2.png" style="width: 100%" />
+                    </div>
+                    <div class="sec">
+                        <div class="pointBars"></div>
+                        <h2>1.2 Why we must degrade nano-/microplastics? </h2>
+                        <p>With the help of agricultural runoff, wastewater treatment plants, floods, river systems,
+                            etc., nano/ microplastics are transported to freshwater systems or into the ocean and
+                            further diffused under the action of water currents, wind, and turbulence. Moreover, due to
+                            the extremely long shelf life, the nano/microplastics are finally returning to humans
+                            (Figure 2). Generally, nano-/microplastics could act as a reservoir of heavy metals,
+                            microorganisms, pathogens, and other harmful substances. Due to their unique physicochemical
+                            characteristics, microplastics offer a distinct surface for chemical acquisition, pollutant
+                            accumulation, and microbial communities. Because of their low degradation rates,
+                            microplastics can persist in the environment for decades or even centuries. The long-lasting
+                            presence of microplastics in the aquatic environment is considered a threat to many aquatic
+                            animals as well as the human body. </p>
+                    </div>
+                    <div class="sec">
+                        <div class="pointBars"></div>
+                        <h2>1.2.1 Potential impacts on the human body </h2>
+                        <p>It is a potential threat to the digestive system, the liver, and the brain. Here are some
+                            ways that it could reach humans. </p>
+                        <ol>
+                            <li>Water. Freshwater sources are polluted with microplastics.</li>
+                            <li>Marine products. </li>
+                            <li>Other food sources. 17 brands of salt in 8 countries are tested with microplastics and
+                                all of them contain microplastics. Beers as well. </li>
+                            <li>Inhalation and dermal exposure. <a href="#ref-1">[1]</a><a href="#ref-5">[5]</a></li>
+                        </ol>
+                    </div>
+                    <div class="sec">
+                        <div class="pointBars"></div>
+                        <h2>1.2.2 Potential impacts on ecosystem</h2>
+                        <p>The coastal environment, which can absorb persistent organic pollutants, are threatened by
+                            microplastics. These particles, microplastics, are dangerous to marine species by exposing
+                            risk on the food chain. It is acknowledged that it is simple for marine animals to absorb
+                            microplastics since they are so small, which would cause terrible health problems. For
+                            example, oyster’s thriving and reproducing abilities are harmed, due to the consumption of
+                            microplastics. Therefore, after a long time, disruption of marine animals’ populations will
+                            eventually break the delicate balance of the marine ecosystem. Now, “Over 700 species of the
+                            marine organism are known to encounter plastics in the environment with clear evidence of
+                            physical harm from entanglement and ingestion”, and people also worry about microplastics
+                            would bring toxicological hazard to marine animals if marine animals digest those tiny
+                            particles with food. Besides, it also impacts the ability to absorb the nutrients in a
+                            negative way <a href="#ref-6">[6-9]</a>.
+                            <br><br>
+                            Microplastics have done a great deal in harming the environment due to its ability to resist
+                            degradation and its level of fragmentation. It is ubiquitous and can be found everywhere.
+                            Many species, marine animals the most severe, have been threatened. Even humans could be put
+                            at risk. Thus, we conclude that immediate action is needed. </p>
+                    </div>
+                    <div class="sec">
+                        <div class="pointBars"></div>
+                        <h2>1.3 Current solutions and their drawbacks </h2>
+                        <p>Except for biodegradation methods, thermal degradation, mechanical action and other much more
+                            advanced methods are also feasible when deal with microplastics in sewage.
+                            <br><br>
+                            Normally, before degradation, the process of extraction is quite important. However, despite
+                            the traditional wastewater treatments can efficiently remove microplastics, an advanced
+                            treatment is still required in order to improve the removal efficiency of small-sized
+                            microplastics (< 100 µm). <br><br>
+                                As for other methods, heterogeneous photocatalysis process by designed photocatalysts of
+                                zinc oxide nanorods (ZnO NRs) and platinum nanoparticles deposited on zinc oxide
+                                nanorods (Pt NPs-ZnO NRs) under visible light irradiation are also feasible. However,
+                                the light used in the experiment is halogen lamp instead of sunlight, because it can be
+                                controlled and thus more stable, and the experiment is set up inside a black box for
+                                maximum effectiveness. It is no use to deduce what might happen if the method is adapted
+                                to the marine environment. </p>
+                    </div>
+                    <div class="sec">
+                        <div class="pointBars"></div>
+                        <h2>1.4 Previous iGEM Projects</h2>
+                        <p>related to microplastics treatment
+                            <br><br>
+                            Team Name / Year / Main work / Medal/ Drawbacks
+                            <br><br>
+                            图片或表格 </p>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                    <div class="sec">
+                        <div class="pointBars"></div>
+                        <h2>2. Our solutions and design</h2>
+                        <p>Here we introduce our biofilm systems which can capture PET nano-/microplastics and
+                            biodegrade them at the same time. To be specific, we take E. coli (BL21) as our engineering
+                            strain, strengthening its biofilms and make it able to secrete PETase at the same time. </p>
+                    </div>
+                    <div class="sec">
+                        <div class="pointBars"></div>
+                        <h2>2.1 Strengthen biofilms system (BBa_K3576000)</h2>
+                        <p>E. coli produces biofilms through the curli operon, which is regulated by two proteins, OmpR
+                            and CsgD. Here, we only concentrate on the former. Our goal is to increase biofilm yield by
+                            constitutively overexpressing OmpR <a href="#ref-12">[12]</a>. </p>
+                        <img src="./assets/discription&design/3.png" style="width: 100%" />
+                        <p>As shown in Figure 3, a strong T7 promoter(BBa_I712074) and strong RBS combination
+                            (BBa_K880005) to maximize protein production, and a double terminator (BBa_B0015) to end
+                            transcription. Therefore, by overexpressing OmpR234, biofilms could become much more sticky
+                            and easy for capturing nano-/microplastics. </p>
+                    </div>
+                    <div class="sec">
+                        <div class="pointBars"></div>
+                        <h2>2.2 PETase expression system (BBa_K3576001)</h2>
+                        <p>Here, we simply introduce PETase(BBa_K1582000) to impart biodegradation ability to E.coli.
+                            Besides, we also add PelB signal peptide for releasing enzymes out of the membrane and EGFP
+                            for marking enzymes visible.
+                            <br><br>
+                            加图片
+                        </p>
+                    </div>
+                    <div class="sec">
+                        <div class="pointBars"></div>
+                        <h2>2.3 SpyTag-SpyCatcher systems</h2>
+                        <p>To combine two designs mentioned above, spy system has been conducted. SpyTag is a short
+                            peptide that forms an isopeptide bond upon encountering its protein partner SpyCatcher. This
+                            covalent peptide interaction is a simple and powerful tool for bioconjugation <a href="#ref-13">[13]</a>.
+                            Therefore, as long as they show up in each protein’s presense, they would covalently bond to
+                            each other. In other words, PETase could stick to biofilms, boosting degradation
+                            effieciency.</p>
+                        <img src="./assets/discription&design/4.png" style="width: 100%" />
+                        <ol>
+                            <ul>
+                                T7
+                                Promoter(BBa_I712074)-RBS(BBa_B0034)-ompR234(BBa_K342003)-SpyTag(BBa_K1159201)-Terminator(BBa_B0015)
+                                加图片
+                            </ul>
+                            <ul>
+                                SpyCatcher-PETase: BBa_K3576003
+                                加图片
+                            </ul>
+                        </ol>
+                    </div>
+                    <div class="sec">
+                        <div class="pointBars"></div>
+                        <h2>2.4 Future plan</h2>
+                        <p>However，according to the research，at room temperature，the rate of biodegradation is quiet
+                            low. If we put PET to surroundings with higher temperature, the rate could certainly
+                            increase significantly. However，normally，enzymes like PETase cannot survive in
+                            high-temperature surrounding and therefore not being able to degrade PET. By collaborating
+                            with another team (Tianjing university), we insert a part which could make PETase still
+                            stable even under XXX(数据那边还没给我).
+                            <br><br>
+                            中间应该有一段具体的基因介绍和mechanism 天津大学还没有给到我。
+                            <br><br>
+                            Our second design: Briefly, modified E.coli could produce a kind of PETase with high
+                            thermostability. By enzyme purification(because we also insert 6XHIS tag in our gene
+                            circuit), we could put our special enzymes to high-temperature area where we put PET. Thus,
+                            biodegradation system could be significantly improved. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="reference" style="padding: 60px;">
+        <h2>References: </h2>
+        <p>
+            <span id="ref-1">[1]</span> Chamas, A., et al., Degradation Rates of Plastics in the Environment. Acs Sustainable Chemistry &
+            Engineering, 2020. 8(9): p. 3494-3511.
+            <br><br>
+            <span id="ref-2">[2]</span> Geyer, R.; Jambeck, J. R.; Law, K. L. Production, Use, and Fate of All Plastics Ever Made. Sci.
+            Adv. 2017, 3 (7), e1700782.
+            <br><br>
+            <span id="ref-3">[3]</span> Chang X, Xue Y, Li J, Zou L, Tang M. Potential health impact of environmental micro‐ and nanoplastics
+            pollution. J Appl Toxicol. 2019;1–12. https://doi. org/10.1002/jat.3915
+            <br><br>
+            <span id="ref-4">[4]</span> Aitken, R. J. "Nanoparticles : an occupational hygiene review." Hse Research Report London Hse Books
+            7.3(2004):1-102. DOI: 10.1177/1206331203256853
+            <br><br>
+            <span id="ref-5">[5]</span> Yong, C.Q.Y., S. Valiyaveetill, and B.L. Tang, Toxicity of Microplastics and Nanoplastics in Mammalian
+            Systems. International Journal of Environmental Research and Public Health, 2020. 17(5).
+            <br><br>
+            <span id="ref-6">[6]</span> Steer M., Thompson R.C. (2020) Plastics and Microplastics: Impacts in the Marine Environment. In:
+            Streit-Bianchi M., Cimadevila M., Trettnak W. (eds) Mare Plasticum - The Plastic Sea. Springer, Cham.
+            https://doi.org/10.1007/978-3-030-38945-1_3
+            <br><br>
+            <span id="ref-7">[7]</span> Frias J P, Sobral P, Ferreira A M, et al. Organic pollutants in microplastics from two beaches of the
+            Portuguese coast[J]. Marine Pollution Bulletin, 2010, 60(11): 1988-1992.
+            <br><br>
+            <span id="ref-8">[8]</span> Sul J A, Costa M F. The Present and Future of Microplastic Pollution in the Marine Environment[J].
+            Environmental Pollution, 2014, 185(185): 352-364.
+            <br><br>
+            <span id="ref-9">[9]</span> Henrik Hamrén，2017，Effects of microplastics on marine life，viewed 29 July
+            2020，https://balticeye.org/en/pollutants/microplastics-in-marine-animals/
+            <br><br>
+            <span id="ref-10">[10]</span> REINALDO126,2020,The Harm Caused By Microplastics in the Marine Environment,viewed 29 July 2020
+            https://picnicon.com/microplastics-in-the-marine-environment/
+            <br><br>
+            <span id="ref-11">[11]</span> Degradation of Microplastic Residuals in Water by Visible Light Photocatalysis TAJKIA SYEED TOFA KTH
+            ROYAL INSTITUTE OF TECHNOLOGY SCHOOL OF ARCHITECTURE AND THE BUILT ENVIRONMENT. (n.d.). Retrieved from
+            http://www.diva-portal.se/smash/get/diva2:1266570/FULLTEXT01.pdf
+            <br><br>
+            <span id="ref-12">[12]</span> Kelkar, V., Green, M., Tongay, S., & Halden, R. (2017). Analysis of Chlorination & UV Effects on
+            Microplastics Using Raman Spectroscopy.
+            <br><br>
+            <span id="ref-13">[13]</span> http://2017.igem.org/Team:TAS_Taipei/Experimental_Summary#CO
+            <br><br>
+            <span id="ref-14">[14]</span> Reddington, S.C. and M. Howarth, Secrets of a covalent interaction for biomaterials and biotechnology:
+            SpyTag and SpyCatcher. Curr Opin Chem Biol, 2015. 29: p. 94-9.
+        </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

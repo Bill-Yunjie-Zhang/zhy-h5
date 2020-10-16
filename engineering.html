@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>zhy</title>
+    <style>
+        #topNav {
+            border: none;
+            box-shadow: none;
+            border-radius: 0px;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin: 0px;
+            padding-bottom: 0px;
+            padding-top: 0px
+        }
+
+        @media only screen and (max-width: 940px) {
+            #topNav {
+                padding-left: 0px;
+                padding-right: 0px
+            }
+        }
+
+        .nav-item {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        #summary {
+            background-color: #efefef;
+            padding: 3em;
+            margin-bottom: 50px;
+        }
+
+        .pointBars {
+            height: 10px;
+            width: 150px;
+            background-color: #3F2C81;
+            margin-bottom: 5px;
+        }
+
+        .sec {
+            padding-bottom: 40px
+        }
+
+        #content {
+            width: 80%;
+            margin: auto
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="topNav" class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white!important">
+        <a class="nav-link" href="./index.html">
+            <img src="./assets/homepage/logoWhiteBackGround.png" height="40px" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Project
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./description&design.html">Description & Design</a>
+                        <a class="dropdown-item" href="./implementation.html">Implementation</a>
+                        <a class="dropdown-item" href="./contribution.html">Contribution</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Experiment
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./engineering.html">Engineering</a>
+                        <a class="dropdown-item" href="./proofOfConcept.html">Proof of Concept</a>
+                        <a class="dropdown-item" href="./notebook.html">Notebook</a>
+                        <a class="dropdown-item" href="./protocols.html">Protocols</a>
+                        <a class="dropdown-item" href="./safety.html">Safety</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Human Practice
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./humanPractices.html">Human Practices</a>
+                        <a class="dropdown-item" href="./education.html">Education</a>
+                        <a class="dropdown-item" href="./collaborations.html">Collaborations</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Model</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Parts</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Team
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./teamMember.html">Team Member</a>
+                        <a class="dropdown-item" href="./attributions.html">Attributions</a>
+                        <a class="dropdown-item" href="./partnership.html">Partnership</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="summary">
+        <h1>Summary</h1>
+        <p>
+            Our world is overwhelmed in plastics pollutions. Concerns about environmental issues and news related to
+            microplastic pollution inspired us to start this project. our mission is to degrade micro/nano-plastics
+            (PET) in the water body by genetically modified E.Coli biodegradation system that produces PETase and
+            strengthens the biofilm system. This combined biodegradable system can not only degrade PET plastics but
+            also attach degraded microplastics, so it will not flow away, thereby preventing it from further pollution.
+            Our product would be environmentally safe and biodegradable. We surveyed the general public as well as
+            professional workers so that we can have the best understanding of our project. By understanding our parts
+            and going through experiments, we created the best outcome of the project, and our mission is on the way.
+        </p>
+    </div>
+
+    <div id="content">
+        <div class="sec">
+            <div class="pointBars"></div>
+            <h2>1. Plasmid construction </h2>
+            <p>We ordered our plasmid from biosynthesis company as the figure below shows. </p>
+            <img src="./assets/engineering/1.png" style="width: 100%" />
+            <img src="./assets/engineering/2.png" style="width: 100%" />
+            <p>As mentioned in our DESIGN page, biofilm part BBa_K3576000 and PETase part BBa_K3576001 are our two main parts. This final construct was ordered from JInruisi Bio Comapany and cloned into the standard pET-21a (+) Biobrick backbone. To confirm the correctness of the plasmid construct, BamHI and EcoRI were used to digest the plasmids. The results (figure 1) shown that the lengths of OMPR and PETase genes is around 1500 bp and 2000 bp, respectively, which meets the expected lengths (Naturally, OmpR234 should be 675bp and PETase should be 1206bp. Since the lengths of genes shown in figure are affected by their primers, they are larger than the theoretical values, but they generally meet the expectation. ) </p>
+            <img src="./assets/engineering/3.png" style="width: 100%" />        
+        </div>
+        <div class="sec">
+            <div class="pointBars"></div>
+            <h2>2. Protein expression test </h2>
+            <ul>
+                <li>
+                    <h3>Strengthen Biofilm Part (OmpR234) BBa_K3576000</h3>
+                    <p>SDS-PAGE electrophoresis was used to check the expression of OmpR234 proteins. As shown in figure 2, compared to the blank control, the lane contained OmpR234 protein (28.8 KDa) indicated that OmpR234 protein have been successfully expressed. With regarding to PETase proteins, they ought to express successfully on another SDS-PAGE gel, which is less dense than the gel in Figure 2. </p>
+                    <img src="./assets/engineering/4.png" style="width: 100%" />                            
+                </li>
+                <li>
+                    <h3>PETase expression part (BBa_K3576001) </h3>
+                    <p>We used Protein SDS-PAGE electrophoresis to check the expression of PETase proteins, and the figure shows that the length of PETase is 42.3 KDA, which indicates that the PETase proteins have been successfully expressed. </p>
+                    <img src="./assets/engineering/4.png" style="width: 100%" />                            
+                </li>
+            </ul>      
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
